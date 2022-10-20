@@ -15,6 +15,9 @@ public abstract class IntroduceSelfTemplate {
 		this.age = age;
 	}
 	
+	/**
+	 * 아래 메서드는 공통 스팟으로 볼 수 있다.
+	 */
 	public final void introduceOneSelf() {
 		sayName();
 		sayAge();
@@ -22,6 +25,7 @@ public abstract class IntroduceSelfTemplate {
 		sayMessage();
 		
 	}
+	
 	
 	public void sayName() {
 		System.out.println("안녕하세요 저의 이름은 " + name + "입니다." );
@@ -33,6 +37,7 @@ public abstract class IntroduceSelfTemplate {
 	
 	/**
 	 * 아래 메서드가 hook method
+	 * 아래 메서드는 핫 스팟으로 볼 수 있다.
 	 */
 	
 	public void saySpecially() {
